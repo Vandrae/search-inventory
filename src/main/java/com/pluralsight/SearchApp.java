@@ -10,7 +10,13 @@ public class SearchApp {
         Product product3 = new Product(03, "Sony Walkman TPS-L2 Replica Cassette Player", 49.99);
         Product product4 = new Product(04, "Modway Render Vinyl Record Display Stand", 234.99);
         Product product5 = new Product(05, "QFX Shoebox-Style Cassette Tape Player/Recorder", 47.99);
-        ArrayList<String> productList = new ArrayList<String>();
+        ArrayList<Product> productList = new ArrayList<Product>();
+        productList.add(product1);
+        productList.add(product2);
+        productList.add(product3);
+        productList.add(product4);
+        productList.add(product5);
+        System.out.println(productList);
 
         //call getInventory to fill the list
 
