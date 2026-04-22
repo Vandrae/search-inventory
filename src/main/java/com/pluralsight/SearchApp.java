@@ -22,7 +22,7 @@ public class SearchApp {
 
         //display all products
         for (int i = 0; i < productList.size();i++){
-            System.out.println( productList.get(i).getId() + " " + productList.get(i).getName() + " " + productList.get(i).getPrice());
+            System.out.println( productList.get(i).getId() + " " + productList.get(i).getName() + " $" + productList.get(i).getPrice());
         }
 
     }
